@@ -1,5 +1,6 @@
 body {
   background: url('/public/images/wool.png');
+  font-family: 'Palatino'
 
 }
 
@@ -109,7 +110,7 @@ body {
 }
 
 .image-wrapper {
-  height: 530px;
+  height: 600px;
   width: 100%;
   position: relative;
   background-color: black
@@ -117,7 +118,7 @@ body {
 }
 
 .cover {
-  height: 530px;
+  height: 600px;
   opacity: 0.5;
   width: 100%;
 }
@@ -151,6 +152,7 @@ i:hover {
   width: 100%;
   height: 170px;
   bottom: 0;
+  color: #b58888;
 
 }
 
@@ -177,4 +179,32 @@ i:hover {
 
 .title-text {
   color: #b58888;
+}
+
+.picture-button {
+  top: 2em;
+  right: 7em;
+  float: right;
+  font-size: 1.3em;
+  position: relative;
+
+}
+
+.picture-button:hover {
+  cursor: pointer;
+
+}
+
+.about {
+  top: 3.5em;
+  left: 5em;
+  font-size: 1.3em;
+  position: relative;
+}
+
+.about-paragraph {
+  top: 52em;
+  left: 20em;
+  margin-right: 30em;
+  position: fixed;
 }
