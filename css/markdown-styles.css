@@ -1,0 +1,180 @@
+body {
+  background: url('/public/images/wool.png');
+
+}
+
+.warning {
+  color: #9F6000;
+  background-color: #FEEFB3;
+  padding: 18px;
+}
+.warning:before {
+  content:'\26A0';
+  margin-right: 9px;
+}
+
+.rfc-page pre {
+  font-family: inherit;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #998;
+  font-style: italic;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-subst {
+  color: #333;
+  font-weight: bold;
+}
+
+.hljs-number,
+.hljs-literal,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag .hljs-attr {
+  color: #008080;
+}
+
+.hljs-string,
+.hljs-doctag {
+  color: #d14;
+}
+
+.hljs-title,
+.hljs-section,
+.hljs-selector-id {
+  color: #900;
+  font-weight: bold;
+}
+
+.hljs-subst {
+  font-weight: normal;
+}
+
+.hljs-type,
+.hljs-class .hljs-title {
+  color: #458;
+  font-weight: bold;
+}
+
+.hljs-tag,
+.hljs-name,
+.hljs-attribute {
+  color: #000080;
+  font-weight: normal;
+}
+
+.hljs-regexp,
+.hljs-link {
+  color: #009926;
+}
+
+.hljs-symbol,
+.hljs-bullet {
+  color: #990073;
+}
+
+.hljs-built_in,
+.hljs-builtin-name {
+  color: #0086b3;
+}
+
+.hljs-meta {
+  color: #999;
+  font-weight: bold;
+}
+
+.hljs-deletion {
+  background: #fdd;
+}
+
+.hljs-addition {
+  background: #dfd;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+.intro {
+  height: 100vh;
+  width: 100vw;
+}
+
+.image-wrapper {
+  height: 530px;
+  width: 100%;
+  position: relative;
+  background-color: black
+
+}
+
+.cover {
+  height: 530px;
+  opacity: 0.5;
+  width: 100%;
+}
+
+.navbar {
+  width: 100%;
+  height: 70px;
+  top: 0;
+
+}
+
+.icon-list {
+  color: #ca0c0c;
+  margin-left: 45.9%;
+  position: relative;
+  margin-top: 30px;
+
+}
+
+i {
+  padding: 5px;
+
+}
+
+i:hover {
+  background-color: #d2b0b0;
+  cursor: pointer;
+}
+
+.footer {
+  width: 100%;
+  height: 170px;
+  bottom: 0;
+
+}
+
+.logo {
+    display: block;
+}
+
+.logo-wrapper {
+  -webkit-box-shadow:inset 0px 0px 85px #ca0c0c;
+  width: 78px;
+  border-radius: 100%;
+  position: absolute;
+  height: 78px;
+  bottom: 70px;
+  margin-left: 50%
+
+}
+
+.title {
+  position: absolute;
+  bottom: 0;
+  margin-left: 49.5%
+}
+
+.title-text {
+  color: #b58888;
+}
