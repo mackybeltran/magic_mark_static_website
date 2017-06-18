@@ -8,6 +8,7 @@ import typography from './utils/typography'
 
 
 
+
 const BUILD_TIME = new Date().getTime()
 
 export default class HTML extends React.Component {
@@ -28,11 +29,13 @@ export default class HTML extends React.Component {
         />
       )
     }
-
+// first line in head is link to font awesome icon library
+// second line is bootstrap
     return (
       <html lang="en">
         <head>
           <link rel="stylesheet" href="public/font-awesome-4.7.0/css/font-awesome.min.css"/>
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css"/>
           <meta charSet="utf-8" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta
