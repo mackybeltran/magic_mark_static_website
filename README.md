@@ -1,3 +1,19 @@
+#Magic Mark's static promotional website, built using Gatsby and React.
+
+Instructions:
+
+install gatsby npm install -g gatsby
+
+clone this repo
+
+npm i to install dependencies
+
+gatsby develop to start server
+
+
+
+
+
 # gatsby-starter-default
 The default Gatsby starter
 
