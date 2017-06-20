@@ -110,7 +110,7 @@ body {
 }
 
 .image-wrapper {
-  height: 600px;
+  height: 550px;
   width: 100%;
   position: relative;
   background-color: black
@@ -118,14 +118,13 @@ body {
 }
 
 .cover {
-  height: 600px;
+  height: 550px;
   opacity: 0.5;
   width: 100%;
 }
 
 .navbar {
   width: 100%;
-  height: 70px;
   top: 0;
 
 }
@@ -134,7 +133,7 @@ body {
   color: #ca0c0c;
   margin-left: 45.9%;
   position: relative;
-  margin-top: 30px;
+  margin-top: 10px;
 
 }
 
@@ -150,9 +149,9 @@ i:hover {
 
 .footer {
   width: 100%;
-  height: 170px;
+  height: 150px;
   bottom: 0;
-  color: #b58888;
+  color: #bdc3c7;
 
 }
 
@@ -167,44 +166,82 @@ i:hover {
   position: absolute;
   height: 78px;
   bottom: 70px;
-  margin-left: 50%
+  margin-left: 48.5%
 
 }
 
 .title {
   position: absolute;
   bottom: 0;
-  margin-left: 49.5%
+  margin-left: 45.8%
 }
 
 .title-text {
-  color: #b58888;
+  font-size: 1.5em;
+  color: #c0392b;
 }
 
 .picture-button {
-  top: 2em;
-  right: 7em;
-  float: right;
+
   font-size: 1.3em;
   position: relative;
+  top: 3em;
+  left: 53em;
 
 }
 
 .picture-button:hover {
   cursor: pointer;
+  color: #ca0c0c;
 
 }
 
-.about {
-  top: 3.5em;
-  left: 5em;
+.video-button {
   font-size: 1.3em;
   position: relative;
+  top: 3.5em;
+  left: 53em;
+}
+
+
+.video-button:hover {
+  cursor: pointer;
+  color: #ca0c0c;
+}
+
+.service-button {
+  font-size: 1.3em;
+  position: relative;
+  top: 4em;
+  left: 53em;
+
+}
+
+.service-button:hover {
+  cursor: pointer;
+  color: #ca0c0c;
+}
+
+iframe {
+  margin-left: 5.2em;
+  margin-top: 2em;
+}
+
+
+.about {
+  left: 3em;
+  font-size: 1.3em;
+  position: relative;
+  width: 8em;
+  bottom: 1em;
 }
 
 .about-paragraph {
-  top: 52em;
-  left: 20em;
-  margin-right: 30em;
-  position: fixed;
+  left: 12em;
+  width: 53em;
+  position: relative;
+  bottom: 3.2em;
 }
+
+
+
