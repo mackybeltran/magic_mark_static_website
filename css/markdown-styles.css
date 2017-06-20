@@ -137,12 +137,12 @@ body {
 
 }
 
-i {
+.icon {
   padding: 5px;
 
 }
 
-i:hover {
+.icon:hover {
   background-color: #d2b0b0;
   cursor: pointer;
 }

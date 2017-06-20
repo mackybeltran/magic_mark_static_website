@@ -6,6 +6,8 @@ import { config } from 'config'
 import { Modal, Button } from 'react-bootstrap'
 import Photolist from './public/components/Photolist.js'
 import Videolist from './public/components/Videolist.js'
+import ReactDOM from 'react-dom'
+import {Icon} from 'react-fa'
 
 class Index extends React.Component {
   constructor(props) {
@@ -113,10 +115,10 @@ class Index extends React.Component {
         <div style={sitestyle}>
           <div className='navbar'>
             <div className='icon-list'>
-              <i className="fa fa-facebook-official fa-2x" aria-hidden="true" onClick={this.handleFacebookLink}></i>
-              <i className="fa fa-instagram fa-2x" aria-hidden="true" onClick={this.handleInstagramLink}></i>
-              <i className="fa fa-twitter fa-2x" aria-hidden="true" onClick={this.handleTwitterLink}></i>
-              <i className="fa fa-envelope fa-2x" aria-hidden="true" onClick={this.handleEmail}></i>
+              <Icon name="facebook-official"  size="2x" className="icon" onClick={this.handleFacebookLink}/>
+              <Icon name="instagram" size="2x" className="icon" onClick={this.handleInstagramLink}/>
+              <Icon name="twitter" size="2x" className="icon" onClick={this.handleTwitterLink}/>
+              <Icon name="envelope" size="2x" className="icon" onClick={this.handleEmail}/>
             </div>
           </div>
 
