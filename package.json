@@ -4,16 +4,24 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "babel-loader": "^7.1.0",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "file-loader": "^0.11.2",
     "gatsby": "^0.12.45",
     "object-assign": "^4.1.1",
     "react": "^15.6.1",
     "react-bootstrap": "^0.31.0",
     "react-dom": "^15.6.1",
+    "react-fa": "^4.2.0",
     "react-helmet": "^5.0.3",
     "react-typography": "^0.15.0",
+    "style-loader": "^0.18.2",
     "typography": "^0.15.8",
     "typography-breakpoint-constants": "^0.14.0",
-    "typography-plugin-code": "^0.15.9"
+    "typography-plugin-code": "^0.15.9",
+    "url-loader": "^0.5.9",
+    "webpack": "^3.0.0"
   },
   "devDependencies": {
     "gh-pages": "^0.12.0"
