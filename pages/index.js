@@ -127,9 +127,7 @@ class Index extends React.Component {
             <div  className='logo-wrapper'>
               <img src='/public/images/logo.png' className='logo'/>
             </div>
-            <div className='title'>
-              <p className='title-text'>MAGIC MARK </p>
-            </div>
+
           </div>
 
           <div className='footer'>
