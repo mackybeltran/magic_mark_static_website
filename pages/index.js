@@ -42,7 +42,7 @@ class Index extends React.Component {
         siteDisplay: 'inline'
       })
     }
-    setTimeout(changeDisplay, 5000)
+    setTimeout(changeDisplay, 4900)
 
   }
 
@@ -108,9 +108,7 @@ class Index extends React.Component {
     }
     return (
       <div>
-        <video autoPlay="autoplay" muted className='intro' style={divstyle}>
-          <source src="/public/videos/intro.mp4" type="video/mp4" />
-          </video>
+        <img src='/public/images/intro.gif' className='intro' style={divstyle}/>
 
         <div style={sitestyle}>
           <div className='navbar'>
