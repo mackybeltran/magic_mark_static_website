@@ -110,7 +110,7 @@ body {
 }
 
 .image-wrapper {
-  height: 550px;
+  height: 500px;
   width: 100%;
   position: relative;
   background-color: black
@@ -118,7 +118,7 @@ body {
 }
 
 .cover {
-  height: 550px;
+  height: 500px;
   opacity: 0.5;
   width: 100%;
 }
@@ -160,21 +160,14 @@ i:hover {
 }
 
 .logo-wrapper {
-  -webkit-box-shadow:inset 0px 0px 85px #ca0c0c;
-  width: 78px;
-  border-radius: 100%;
+  width: 200px;
   position: absolute;
-  height: 78px;
-  bottom: 70px;
-  margin-left: 48.5%
+  bottom: 5px;
+  margin-left: 44.5%;
+  opacity: 0.75;
 
 }
 
-.title {
-  position: absolute;
-  bottom: 0;
-  margin-left: 45.8%
-}
 
 .title-text {
   font-size: 1.5em;
