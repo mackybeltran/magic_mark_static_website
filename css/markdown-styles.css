@@ -110,7 +110,7 @@ body {
 }
 
 .image-wrapper {
-  height: 500px;
+  height: 70vh;
   width: 100%;
   position: relative;
   background-color: black
@@ -118,7 +118,7 @@ body {
 }
 
 .cover {
-  height: 500px;
+  height: 70vh;
   opacity: 0.5;
   width: 100%;
 }
