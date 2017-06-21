@@ -202,10 +202,9 @@ body {
 
 .picture-button-mobile {
 
-  font-size: 1.3em;
+  font-size: 1.2em;
   margin: auto;
   text-align: center;
-  margin-top: 1.3em;
 
 }
 
@@ -217,7 +216,7 @@ body {
 }
 
 .video-button-mobile {
-  font-size: 1.3em;
+  font-size: 1.2em;
   margin: auto;
   text-align: center;
 }
@@ -237,7 +236,7 @@ body {
 }
 
 .service-button-mobile {
-  font-size: 1.3em;
+  font-size: 1.2em;
   margin: auto;
   text-align: center;
 }
@@ -247,7 +246,24 @@ body {
   color: #ca0c0c;
 }
 
+.about-button-mobile {
+  font-size: 1.2em;
+  margin: auto;
+  text-align: center;
+  margin-top: 1.3em;
+}
 
+.about-button-mobile:hover {
+  cursor: pointer;
+  color: #ca0c0c;
+}
+
+.about-paragraph-mobile {
+  width: 75%;
+  margin-left: 10%;
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
 iframe {
   margin-left: auto;
   margin-right: auto;
