@@ -47,6 +47,10 @@ class Footer extends React.Component {
   }
 
   render() {
+
+    if (typeof window === 'undefined') {
+      global.window = {}
+    }
     if (window.innerWidth > 768) {
     return (
       <div>
