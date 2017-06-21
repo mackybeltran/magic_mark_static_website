@@ -118,7 +118,7 @@ body {
 }
 
 .image-wrapper {
-  height: 70vh;
+  height: 60vh;
   width: 100%;
   position: relative;
   background-color: black
@@ -126,7 +126,7 @@ body {
 }
 
 .cover {
-  height: 70vh;
+  height: 60vh;
   opacity: 0.5;
   width: 100%;
 }
@@ -269,15 +269,14 @@ iframe {
   margin-right: auto;
   text-align: center;
   vertical-align: middle;
-  min-height: 10px;
-  min-width: 10px;
-  max-width: 75%;
-  margin-top: 2em
+  margin-top: 2em;
+  max-height: 60vh;
+  max-width: 80vw;
 }
 
 .photo {
-    max-height: 400px;
-    min-height: 400px;
+    max-height: 55vh;
+    max-width: 65vw;
 }
 
 .about {
@@ -296,7 +295,7 @@ iframe {
 
 
 .video-modal {
-  width: 80%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
