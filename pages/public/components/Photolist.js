@@ -22,7 +22,7 @@ class Photolist extends React.Component {
         {photos.map((photo, index) => {
           return (
             <Carousel.Item key={index}>
-               <img width={900} height={500} src={photo.path}/>
+               <img width={900} height={500} src={photo.path} className='photo'/>
                 <Carousel.Caption>
                   <p>{photo.caption}</p>
                 </Carousel.Caption>
