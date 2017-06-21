@@ -81,7 +81,8 @@ class Footer extends React.Component {
                 </Modal.Footer>
               </Modal>
 
-              <Modal show={this.state.showModalVideo} onHide={this.closeVideo}>
+              <Modal show={this.state.showModalVideo} onHide={this.closeVideo} dialogClassName="video-modal"
+              >
                 <Modal.Body>
                   <h4>Videos</h4>
                     <Videolist/>
@@ -120,7 +121,7 @@ class Footer extends React.Component {
                 </Modal.Footer>
               </Modal>
 
-              <Modal show={this.state.showModalVideo} onHide={this.closeVideo}>
+              <Modal show={this.state.showModalVideo} onHide={this.closeVideo} dialogClassName="video-modal">
                 <Modal.Body>
                   <h4>Videos</h4>
                     <Videolist/>
