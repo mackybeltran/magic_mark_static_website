@@ -9,14 +9,12 @@ class Videolist extends React.Component {
 
   render() {
     return (
-      <Carousel interval={false}>
+      <Carousel interval={false} indicators={false} >
         {videos.map((video, index) => {
           return (
             <Carousel.Item key={index}>
-               <iframe width={1000} height={520} src={video.path} allowFullScreen  />
-                <Carousel.Caption>
-                  <p>{video.caption}</p>
-                </Carousel.Caption>
+               <iframe width={1000} height={520} src={video.path} allowFullScreen />
+
 
 
             </Carousel.Item>)
