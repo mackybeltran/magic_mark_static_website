@@ -78,8 +78,13 @@ class Index extends React.Component {
     }
     return (
       <div>
-        <img src='/public/images/intro.gif' className='intro' style={divstyle}/>
-
+        <div style={divstyle}>
+          <div className='navbar'>
+          </div>
+          <div className='intro-wrapper'>
+            <img src='/public/images/intro.gif' className='intro' />
+          </div>
+          </div>
         <div style={sitestyle}>
           <div className='navbar'>
             <div className='icon-list'>
