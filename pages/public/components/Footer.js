@@ -47,7 +47,7 @@ class Footer extends React.Component {
   }
 
   render() {
-    if (window.innerWidth > 768) {
+    if (document.documentElement.clientWidth > 800) {
     return (
       <div>
       <div className='about'> ABOUT
