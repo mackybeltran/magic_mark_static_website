@@ -34,7 +34,7 @@ class Index extends React.Component {
         siteDisplay: 'inline'
       })
     }
-    setTimeout(changeDisplay, 4700)
+    setTimeout(changeDisplay, 4500)
 
   }
 
