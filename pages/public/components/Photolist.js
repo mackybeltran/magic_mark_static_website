@@ -3,7 +3,7 @@ import { Carousel } from 'react-bootstrap'
 
 const photos = [{path: './public/images/photos/antwerpen14.jpg', caption: 'Antwerp 2014'},
                 {path: './public/images/photos/bergenorway14.jpg', caption: 'Norway 2014'},
-                {path: './public/images/photos/ed13b.jpg', caption: 'Edinburgh 2013'},
+                {path: './public/images/photos/ed13b.jpg', caption: 'Prague 2013'},
                 {path: './public/images/photos/ed13c.jpg', caption: 'Edinburgh 2013'},
                 {path: './public/images/photos/edin13.jpg', caption: 'Edinburgh 2013'},
                 {path: './public/images/photos/gram13.jpg', caption: 'Manila 2013'},
