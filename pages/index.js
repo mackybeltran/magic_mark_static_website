@@ -45,7 +45,7 @@ class Index extends React.Component {
         videoDisplay: 'inline',
         siteDisplay: 'none'
       })
-    setTimeout(changeDisplay, 5500)
+    setTimeout(changeDisplay, 5300)
   } else {
     changeDisplay()
   }
