@@ -28,13 +28,22 @@ class Index extends React.Component {
 
 
   handleChangeDisplay(event) {
+    if (typeof window === 'undefined') {
+      global.window = {}
+    }
+
     const changeDisplay = () => {
       this.setState({
         videoDisplay: 'none',
         siteDisplay: 'inline'
       })
     }
+    if (window.innerWidth > 768) {
     setTimeout(changeDisplay, 5500)
+  }
+    else {
+      changeDisplay()
+    }
 
   }
 
