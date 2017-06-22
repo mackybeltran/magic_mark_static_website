@@ -13,7 +13,7 @@ class Videolist extends React.Component {
         {videos.map((video, index) => {
           return (
             <Carousel.Item key={index}>
-               <iframe width={1000} height={520} src={video.path} allowFullScreen className='videolist-video'/>
+               <iframe width={1000} height={520} src={video.path} allowFullScreen className='videolist-video' alt='Magic Marks demo reels'/>
 
 
 

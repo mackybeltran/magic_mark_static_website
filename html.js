@@ -44,6 +44,7 @@ export default class HTML extends React.Component {
           {head.meta.toComponent()}
           <TypographyStyle typography={typography} />
           {css}
+          <title>Magician Magic Mark</title>
         </head>
         <body>
           <div

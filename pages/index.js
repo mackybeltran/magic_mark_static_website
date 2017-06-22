@@ -91,7 +91,7 @@ class Index extends React.Component {
           <div className='navbar'>
           </div>
           <div className='intro-wrapper'>
-            <iframe src='https://www.youtube.com/embed/HbjPgfEBdCE?&showinfo=0&iv_load_policy=3&controls=0&autoplay=1' className='intro' frameBorder={0}/>
+            <iframe src='https://www.youtube.com/embed/HbjPgfEBdCE?&showinfo=0&iv_load_policy=3&controls=0&autoplay=1' className='intro' frameBorder={0} alt='Magic Mark Intro'/>
           </div>
         </div>
         <div style={sitestyle}>
@@ -105,9 +105,9 @@ class Index extends React.Component {
           </div>
 
           <div  className='image-wrapper'>
-            <img src='/public/images/cover.jpg' className='cover'/>
+            <img src='/public/images/cover.jpg' className='cover' alt='Magic Mark cover photo'/>
             <div  className='logo-wrapper'>
-                <img src='/public/images/logo.png' className='logo'/>
+                <img src='/public/images/logo.png' className='logo' alt='Magic Mark Logo'/>
 
             </div>
 
