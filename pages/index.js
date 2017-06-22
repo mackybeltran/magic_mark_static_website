@@ -93,9 +93,9 @@ class Index extends React.Component {
         <div style={divstyle}>
           <div className='navbar'>
           </div>
-          <div className='intro-wrapper'>
-            <iframe src='https://www.youtube.com/embed/HbjPgfEBdCE?&showinfo=0&iv_load_policy=3&controls=0&autoplay=1' className='intro' frameBorder={0} alt='Magic Mark Intro'/>
-          </div>
+            <div className='aspect-ratio-intro'>
+              <iframe src='https://www.youtube.com/embed/HbjPgfEBdCE?&showinfo=0&iv_load_policy=3&controls=0&autoplay=1' className='intro' frameBorder={0} alt='Magic Mark Intro'/>
+            </div>
         </div>
         <div style={sitestyle}>
           <div className='navbar'>
