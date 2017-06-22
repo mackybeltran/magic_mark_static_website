@@ -19,8 +19,8 @@ class Index extends React.Component {
     this.handleEmail = this.handleEmail.bind(this);
     this.handleSelect = this.handleSelect.bind(this);
     this.state = {
-      videoDisplay: 'inline',
-      siteDisplay: 'none',
+      videoDisplay: 'none',
+      siteDisplay: 'inline',
 
     }
   }
@@ -38,12 +38,15 @@ class Index extends React.Component {
         siteDisplay: 'inline'
       })
     }
-    if (window.innerWidth > 768) {
+
+
+    if (window.innerWidth >= 768) {
+      this.setState({
+        videoDisplay: 'inline',
+        siteDisplay: 'none'
+      })
     setTimeout(changeDisplay, 5500)
   }
-    else {
-      changeDisplay()
-    }
 
   }
 
