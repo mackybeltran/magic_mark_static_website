@@ -111,14 +111,14 @@ body {
 
 .intro-wrapper {
   height: 70vh;
-  width: 100%;
+  width: 100vw;
   position: relative;
   background-color: black;
 }
 
 .image-wrapper {
   height: 60vh;
-  width: 100%;
+  width: 100vw;
   position: relative;
   background-color: black
 
