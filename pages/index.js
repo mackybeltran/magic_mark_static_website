@@ -34,7 +34,7 @@ class Index extends React.Component {
         siteDisplay: 'inline'
       })
     }
-    setTimeout(changeDisplay, 4500)
+    setTimeout(changeDisplay, 5500)
 
   }
 
@@ -82,9 +82,9 @@ class Index extends React.Component {
           <div className='navbar'>
           </div>
           <div className='intro-wrapper'>
-            <img src='/public/images/intro.gif' className='intro' />
+            <iframe src='https://www.youtube.com/embed/HbjPgfEBdCE?&showinfo=0&iv_load_policy=3&controls=0&autoplay=1' className='intro' frameBorder={0}/>
           </div>
-          </div>
+        </div>
         <div style={sitestyle}>
           <div className='navbar'>
             <div className='icon-list'>

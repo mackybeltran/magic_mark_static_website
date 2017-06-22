@@ -6,7 +6,7 @@ class Services extends React.Component {
   render(){
     return(
       <div>
-        <Modal.Body>
+        <Modal.Body className = 'services-modal'>
                   <h4>Services</h4>
 
                   <h6>Parlour show </h6>
