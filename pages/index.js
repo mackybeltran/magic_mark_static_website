@@ -20,7 +20,7 @@ class Index extends React.Component {
     this.handleSelect = this.handleSelect.bind(this);
     this.state = {
       videoDisplay: 'none',
-      siteDisplay: 'inline',
+      siteDisplay: 'none',
 
     }
   }
@@ -46,6 +46,8 @@ class Index extends React.Component {
         siteDisplay: 'none'
       })
     setTimeout(changeDisplay, 5500)
+  } else {
+    changeDisplay()
   }
 
   }
