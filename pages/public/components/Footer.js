@@ -65,7 +65,7 @@ class Footer extends React.Component {
     if (window.innerWidth > 768) {
     return (
       <div>
-      <div className='about'> ABOUT
+      <div className='about'> About
             </div>
             <div className='about-paragraph'>
               <p>I am a magician and I have been performing professionally for 7 years. Originally from the Philippines,
@@ -75,13 +75,13 @@ class Footer extends React.Component {
             </p>
             </div>
             <div onClick={this.openPicture} className='picture-button'>
-              PICTURES
+              Pictures
             </div>
             <div onClick={this.openVideo} className='video-button'>
-              VIDEOS
+              Videos
             </div>
             <div onClick={this.openService} className='service-button'>
-              SERVICES
+              Services
             </div>
             <Modal show={this.state.showModalPicture} onHide={this.closePicture} className='modal'>
                 <Modal.Body>
@@ -114,16 +114,16 @@ class Footer extends React.Component {
     return (
       <div>
         <div onClick={this.openAbout} className='about-button-mobile'>
-          ABOUT
+          About
         </div>
         <div onClick={this.openPicture} className='picture-button-mobile'>
-          PICTURES
+          Pictures
         </div>
         <div onClick={this.openVideo} className='video-button-mobile'>
-          VIDEOS
+          Videos
         </div>
         <div onClick={this.openService} className='service-button-mobile'>
-          SERVICES
+          Services
         </div>
         <Modal show={this.state.showModalPicture} onHide={this.closePicture} className='modal'>
           <Modal.Body>
