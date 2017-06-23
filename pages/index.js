@@ -9,6 +9,8 @@ import Footer from './public/components/Footer.js'
 import ReactDOM from 'react-dom'
 import {Icon} from 'react-fa'
 
+
+
 class Index extends React.Component {
   constructor(props) {
     super(props);
@@ -83,23 +85,41 @@ class Index extends React.Component {
 
 
   render() {
-    const divstyle = {
+
+    if (typeof window === 'undefined') {
+      global.window = {}
+    }
+
+    const introStyle = {
       display: this.state.videoDisplay,
     }
-    const sitestyle = {
+    const siteStyle = {
       display: this.state.siteDisplay,
 
     }
+
+
+      if (window.innerWidth > window.innerHeight) {
+        var coverStyle = {
+        height: '75vh'
+      }
+      } else {
+        var coverStyle = {
+          height: '50vh'
+        }
+      }
+
+
     return (
       <div>
-        <div style={divstyle}>
+        <div style={introStyle}>
           <div className='navbar'>
           </div>
             <div className='aspect-ratio-intro'>
               <iframe src='https://www.youtube.com/embed/HbjPgfEBdCE?&showinfo=0&iv_load_policy=3&controls=0&autoplay=1' className='intro' frameBorder={0} alt='Magic Mark Intro'/>
             </div>
         </div>
-        <div style={sitestyle}>
+        <div style={siteStyle}>
           <div className='navbar'>
             <div className='icon-list'>
               <Icon name="facebook-official"  size="2x" className="icon" onClick={this.handleFacebookLink}/>
@@ -109,8 +129,8 @@ class Index extends React.Component {
             </div>
           </div>
 
-          <div  className='image-wrapper'>
-            <img src='/public/images/cover.jpg' className='cover' alt='Magic Mark cover photo'/>
+          <div  className='image-wrapper' style={coverStyle}>
+            <img src='/public/images/cover.jpg' className='cover' alt='Magic Mark cover photo' style={coverStyle}/>
             <div  className='logo-wrapper'>
                 <img src='/public/images/logo.png' className='logo' alt='Magic Mark Logo'/>
 
