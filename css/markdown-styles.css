@@ -126,7 +126,6 @@ body {
 }
 
 .image-wrapper {
-  height: 60vh;
   width: 100vw;
   position: relative;
   background-color: black
@@ -134,7 +133,6 @@ body {
 }
 
 .cover {
-  height: 60vh;
   width: 100vw;
   opacity: 0.85;
 }
@@ -210,7 +208,7 @@ body {
 
 .picture-button-mobile {
 
-  font-size: 1.2em;
+  font-size: 1.5em;
   margin: auto;
   text-align: center;
 
@@ -220,11 +218,11 @@ body {
   font-size: 1.3em;
   position: relative;
   left: 55em;
-  bottom: 6em;
+  bottom: 6.5em;
 }
 
 .video-button-mobile {
-  font-size: 1.2em;
+  font-size: 1.5em;
   margin: auto;
   text-align: center;
 }
@@ -239,12 +237,12 @@ body {
   font-size: 1.3em;
   position: relative;
   left: 55em;
-  bottom: 5em;
+  bottom: 6em;
 
 }
 
 .service-button-mobile {
-  font-size: 1.2em;
+  font-size: 1.5em;
   margin: auto;
   text-align: center;
 }
@@ -255,10 +253,10 @@ body {
 }
 
 .about-button-mobile {
-  font-size: 1.2em;
+  font-size: 1.5em;
   margin: auto;
   text-align: center;
-  margin-top: 1em;
+  margin-top: 2em;
 }
 
 .about-button-mobile:hover {
