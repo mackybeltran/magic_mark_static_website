@@ -18,7 +18,7 @@ class Photolist extends React.Component {
 
   render() {
     return (
-      <Carousel>
+      <Carousel interval={8000}>
         {photos.map((photo, index) => {
           return (
             <Carousel.Item key={index}>
