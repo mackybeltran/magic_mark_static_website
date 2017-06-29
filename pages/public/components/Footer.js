@@ -70,7 +70,7 @@ class Footer extends React.Component {
             <div className='about-paragraph'>
               <p>I am a magician and I have been performing professionally for 7 years. Originally from the Philippines,
               my show has been astounding many people across the globe. I have been on tour throughout Australia, Canada, Europe, The Philippines, South Korea, and the USA. <b/>
-              People always ask me where I learned the magic I perform I have been very fortunate to be educated and trained with a Masters Class
+              People always ask me where I learned the magic I perform: I have been very fortunate to be educated and trained with a Masters Class
               degree in magic at the Mcbride Mystery school in Las Vegas taught by the very best teachers in the industry. <b/>
             </p>
             </div>
